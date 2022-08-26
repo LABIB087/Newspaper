@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    scroll-behavior: smooth;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.section-heading {
+    font-size: 22px;
+    padding: 5px 0px;
+    margin-left: 15px;
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
+
+.a {
+    background: #FF2525;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+
+body {
+    background: white;
+    width: 100%;
+}
+
+/* Navbar start here */
+
+.nav-section {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    flex: 1;
+    position: relative;
+}
+
+.nav-heading h2 {
+    padding: 10px;
+    font-weight: 400;
+}
+
+.nav-bar {
+    display: flex;
+    padding-left: 50px;
+    /*background: red;*/
+    flex: 1;
+    margin-top: 6px;
+}
+
+.nav-bar i {
+    font-size: 25px;
+}
+
+.login {
+    flex-basis: 30%;
+    /*background: blue;*/
+    padding: 9px 45px;
+}
+
+.bar {
+    flex-basis: 30%;
+    /*background: blue;*/
+    padding: 9px 25px;
+}
+
+.drop {
+    z-index: 5;
+    background: black;
+    position: absolute;
+    padding: 10px 20px;
+    width: 200px;
+    display: block;
+    line-height: 22px;
+    right: 0px;
+    top: 80px;
+    display: none;
+}
+
+.drop a {
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 15px 0px;
+    padding: 10px;
+}
+
+/* Navbar end here */
+
+/* news-flow start here */
+
+.news-flow {
+    background: black;
+    padding: 10px;
+    width: 100%;
+}
+
+.news-flow marquee {
+    font-size: 22px;
+    color: white;
+}
+
+/* news-flow end here */
+
+/* latest news start here */
+
+.latest-news {
+    background: lightgray;
+    padding: 10px;
+}
+
+.l-news {
+    overflow: scroll;
+    height: 200px;
+}
+
+.l-news h3 {
+    font-size: 22px;
+    margin: 7px 0px;
+}
+
+.l-news ul {
+    line-height: 38px;
+    list-style: circle;
+    padding: 5px 30px;
+}
+
+.l-news li {
+    font-size: 23px;
+    margin: 20px 0px;
+}
+
+.l-news ul li a {
+    color: black;
+}
+
+/* latest news end here */
+
+/* news artical stsrt here */
+
+.news-artical {
+    background: white;
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.news-card:first-child {
+    margin-top: 20px;
+}
+
+.news-card {
+    display: flex;
+    flex: 1;
+    padding: 15px;
+    width: 98%;
+    height: fit-content;
+    background: white;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+    transition: transform 0.5s;
+    margin-bottom: 30px;
+}
+
+.news-card article {
+    line-height: 22px;
+}
+
+.news-card aside img {
+    width: 150px;
+    height: 100%;
+}
+
+/* news artical stsrt here */
+
+/* Corona section start here*/
+.corona-section {
+    width: 100%;
+    padding: 10px;
+}
+
+.corona-card-container {
+    background: white;
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.corona-card {
+    background: white;
+    width: 85%;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.6);
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+}
+
+.corona-card-container img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.corona-card-container h4 {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 5px 10px;
+}
+
+.corona-card-container p {
+    font-size: 13px;
+    text-align: justify;
+    line-height: 24px;
+    padding: 5px 10px;
+
+}
+
+.n-btn {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.n-btn a {
+    background: #FF2525;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+/* Corona section end here*/
+
+/* Sport section start here */
+
+.sport-section {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Sport section end here */
+
+.footer-section {
+    width: 100%;
+    height: 100vh;
+    background: #313131;
+    text-align: center;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.footer-section h1 {
+    font-size: 2.6rem;
+    letter-spacing: 1.5px;
+    color: white;
+    margin-bottom: 40px
+}
+
+.links {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.links h3 {
+    color: white;
+    padding: 15px 0px;
+    font-size: 1.5rem;
+}
+
+.links button {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding: 15px 5px;
+    margin-left: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: #313131;
+}
+
+.links button i {
+    font-size: 26px;
+    position: relative;
+    bottom: 3px;
+}
+
+.footer-nav {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav a {
+    display: block;
+    line-height: 25px;
+    color: white;
+}
+
+.first-nav {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.second-nav {
+    padding-right: 20px;
+    text-align: left;
+}
+.copy{
+    text-align: justify;
+    color: white;
+    padding: 15px 10px;
+    position: absolute;
+    bottom: 0px;
+}
+/* hover part start here */
+
+.bar:hover .drop {
+    display: block;
+    width: 360px;
+}
+.l-news ul li a:hover {
+    color: blue;
+    transition: 1s;
+}
+
+.news-card:hover {
+    transform: scale(0.9);
+}
+
+.corona-card:hover {
+    transform: scale(1.1);
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.links button:hover {
+    border: 1px solid white;
+    transition: 1.5s;
+    transform: scale(1.3);
+}
+
+.links button i:hover {
+    color: white;
+    transition: 1.5s;
+}
+
+.N a:hover {
+    padding-left: 10px;
+    transition: all 1s;
+}
+
+/* hover part end here */
