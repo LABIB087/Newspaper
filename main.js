@@ -1,2 +1,2 @@
 console.log('Hello World!');
-alert("This page is not responsive");
+alert("<h1>"+"This page is not responsive"+"</h1>");
